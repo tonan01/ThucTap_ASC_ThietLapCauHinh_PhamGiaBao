@@ -1,0 +1,12 @@
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\BUS.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\BUS.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\DAO.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\DTO.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\DAO.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\DTO.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\obj\Debug\BUS.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\obj\Debug\BUS.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\BUS\bin\Debug\DAO.dll.config

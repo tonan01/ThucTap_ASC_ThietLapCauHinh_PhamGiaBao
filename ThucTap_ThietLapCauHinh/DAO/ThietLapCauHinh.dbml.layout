@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ThietLapCauHinh">
+  <DataContextMoniker Name="/ThietLapCauHinhDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4d378858-d48e-4f49-bff2-1f8a1c056ea1" absoluteBounds="0.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/ThietLapCauHinhDataContext/MB_PhanHe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f36f80d-f46f-4204-a02f-ca142a77a4a5" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b24a5153-1e7a-4a29-89c5-9d80970e06a6" absoluteBounds="3.75, 0.75, 2, 5.6169254557291657">
+      <DataClassMoniker Name="/ThietLapCauHinhDataContext/MB_Truong_PhanHe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58af8d76-822d-4bad-8136-272b3bbd0ab7" absoluteBounds="3.765, 1.21, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7713cb0-11ab-414d-a1ad-19625b030799" absoluteBounds="6.75, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/ThietLapCauHinhDataContext/MB_Truong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5be596c-fbc3-4759-bb43-e479950fe537" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

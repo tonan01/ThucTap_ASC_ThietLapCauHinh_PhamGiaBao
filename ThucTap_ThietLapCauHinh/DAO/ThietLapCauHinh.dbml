@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ThucTap_ThietLapCauHinh" Class="ThietLapCauHinhDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-QGV07E1;Initial Catalog=ThucTap_ThietLapCauHinh;Persist Security Info=True;User ID=sa" SettingsObjectName="DAO.Properties.Settings" SettingsPropertyName="ThucTap_ThietLapCauHinhConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MB_PhanHe" Member="MB_PhanHes">
+    <Type Name="MB_PhanHe">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaPhanHe" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TenPhanHe" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsHienThi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MB_Truong_PhanHe" Member="MB_Truong_PhanHes">
+    <Type Name="MB_Truong_PhanHe">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDTruong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDPhanHe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url_2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url_3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UrlSocket" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SubAPI" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="SubAPI_2" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="SubAPI_3" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Warning_RequireSurvey" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FeaturesRequireSurvey" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VersionEgovAPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UrlPayment" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="VersionStudentAPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WarningMessage" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="HasAds" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="WebsiteUrl" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="VersionWeb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UseHTMLSalaryView" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MB_Truong" Member="MB_Truongs">
+    <Type Name="MB_Truong">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaTruong" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TenTruong" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TruocThuocBo" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DuongDanLogo" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IsHienThi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuDungRieng" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ThongTinRieng" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Loai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_Sua_PhanHe" Method="sp_Sua_PhanHe">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ten_PhanHe" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="hienThi" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Them_PhanHe" Method="sp_Them_PhanHe">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="maPhanHe" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ten_PhanHe" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Xoa_PhanHe" Method="sp_Xoa_PhanHe">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Show_PhanHe" Method="sp_Show_PhanHe">
+    <ElementType Name="sp_Show_PhanHeResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaPhanHe" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TenPhanHe" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsHienThi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_Show_Truong" Method="sp_Show_Truong">
+    <ElementType Name="sp_Show_TruongResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaTruong" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TenTruong" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="TruocThuocBo" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DuongDanLogo" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IsHienThi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuDungRieng" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ThongTinRieng" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Loai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_Sua_Truong" Method="sp_Sua_Truong">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="maTruong" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ten_Truong" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="truocThuocBo" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="duongDanLogo" Type="System.String" DbType="NText" />
+    <Parameter Name="isHienThi" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsSuDungRieng" Parameter="isSuDungRieng" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="thongTinRieng" Type="System.String" DbType="NText" />
+    <Parameter Name="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Loai" Parameter="loai" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Them_Truong" Method="sp_Them_Truong">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="maTruong" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="ten_Truong" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="truocThuocBo" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="duongDanLogo" Type="System.String" DbType="NText" />
+    <Parameter Name="isHienThi" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsSuDungRieng" Parameter="isSuDungRieng" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="thongTinRieng" Type="System.String" DbType="NText" />
+    <Parameter Name="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Loai" Parameter="loai" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Xoa_Truong" Method="sp_Xoa_Truong">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Show_Truong_PhanHe" Method="sp_Show_Truong_PhanHe">
+    <ElementType Name="sp_Show_Truong_PhanHeResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDTruong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDPhanHe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url_2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url_3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UrlSocket" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SubAPI" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="SubAPI_2" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="SubAPI_3" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Warning_RequireSurvey" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FeaturesRequireSurvey" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="NguoiTao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NguoiCapNhat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayCapNhat" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VersionEgovAPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UrlPayment" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="VersionStudentAPI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WarningMessage" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="HasAds" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="WebsiteUrl" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="VersionWeb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UseHTMLSalaryView" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_Sua_Truong_PhanHe" Method="sp_Sua_Truong_PhanHe">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IDTruong" Parameter="iDTruong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IDPhanHe" Parameter="iDPhanHe" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url_2" Parameter="url_2" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url_3" Parameter="url_3" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="UrlSocket" Parameter="urlSocket" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SubAPI" Parameter="subAPI" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="SubAPI_2" Parameter="subAPI_2" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="SubAPI_3" Parameter="subAPI_3" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="GhiChu" Parameter="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Warning_RequireSurvey" Parameter="warning_RequireSurvey" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="FeaturesRequireSurvey" Parameter="featuresRequireSurvey" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="VersionEgovAPI" Parameter="versionEgovAPI" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UrlPayment" Parameter="urlPayment" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="VersionStudentAPI" Parameter="versionStudentAPI" Type="System.Int32" DbType="Int" />
+    <Parameter Name="WarningMessage" Parameter="warningMessage" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="HasAds" Parameter="hasAds" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="WebsiteUrl" Parameter="websiteUrl" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="VersionWeb" Parameter="versionWeb" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UseHTMLSalaryView" Parameter="useHTMLSalaryView" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Them_Truong_PhanHe" Method="sp_Them_Truong_PhanHe">
+    <Parameter Name="IDTruong" Parameter="iDTruong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IDPhanHe" Parameter="iDPhanHe" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url_2" Parameter="url_2" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url_3" Parameter="url_3" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="UrlSocket" Parameter="urlSocket" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SubAPI" Parameter="subAPI" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="SubAPI_2" Parameter="subAPI_2" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="SubAPI_3" Parameter="subAPI_3" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="GhiChu" Parameter="ghiChu" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Warning_RequireSurvey" Parameter="warning_RequireSurvey" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="FeaturesRequireSurvey" Parameter="featuresRequireSurvey" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="VersionEgovAPI" Parameter="versionEgovAPI" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UrlPayment" Parameter="urlPayment" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="VersionStudentAPI" Parameter="versionStudentAPI" Type="System.Int32" DbType="Int" />
+    <Parameter Name="WarningMessage" Parameter="warningMessage" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="HasAds" Parameter="hasAds" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="WebsiteUrl" Parameter="websiteUrl" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="VersionWeb" Parameter="versionWeb" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UseHTMLSalaryView" Parameter="useHTMLSalaryView" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_Xoa_Truong_PhanHe" Method="sp_Xoa_Truong_PhanHe">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

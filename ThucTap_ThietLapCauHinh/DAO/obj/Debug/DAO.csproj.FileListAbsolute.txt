@@ -1,0 +1,10 @@
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\bin\Debug\DAO.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\bin\Debug\DAO.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\bin\Debug\DTO.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\bin\Debug\DTO.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\obj\Debug\DAO.dll
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\obj\Debug\DAO.pdb
+D:\HocTap\ThucTapCongTy\ThietLapCauHinh\ThucTap_ThietLapCauHinh\DAO\bin\Debug\DAO.dll.config
